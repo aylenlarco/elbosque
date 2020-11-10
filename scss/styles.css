@@ -1,0 +1,485 @@
+/*VARIABLES DE COLORES*/
+/*MENU NAVEGABLE*/
+nav .logo {
+  height: 50px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  line-height: 2.1em;
+  border: 2px solid transparent;
+}
+
+nav .logo:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+nav .seccionesMenu {
+  padding-right: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none !important;
+  color: ivory;
+  letter-spacing: 5px;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+nav .seccionesMenu:hover {
+  color: gray;
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg);
+}
+
+nav .sm-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-size: 25px;
+  color: ivory;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  line-height: 2em;
+}
+
+nav .sm-button.instagram:hover, nav .sm-button.facebook:hover, nav .sm-button.youtube:hover {
+  color: gray;
+  border-color: ivory;
+  background: transparent;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+nav .sm-button.instagram {
+  background: #DB4189;
+  margin-left: 15px;
+}
+
+nav .sm-button.facebook {
+  background: #0673E7;
+  margin-left: 15px;
+}
+
+nav .sm-button.youtube {
+  background: #df2020;
+  margin-left: 15px;
+}
+
+/*FOOTER DE TODAS LAS SECCIONES*/
+#footerGeneral {
+  margin-top: 300px;
+}
+
+.textoFooter {
+  color: ivory;
+  font-weight: bold;
+  text-shadow: black 2px 2px;
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#email {
+  background-color: transparent;
+  border: solid 1px gray;
+  width: 69%;
+}
+
+::-webkit-input-placeholder {
+  color: ivory;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+:-ms-input-placeholder {
+  color: ivory;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+::-ms-input-placeholder {
+  color: ivory;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+::placeholder {
+  color: ivory;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  #footerGeneral {
+    text-align: center;
+  }
+  .textoFooter {
+    font-size: 8px;
+  }
+  .btn {
+    width: 325px;
+    height: 25px;
+  }
+}
+
+/*HOME*/
+#gridMain {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 10fr 2fr;
+      grid-template-rows: 10fr 2fr;
+  justify-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+#imagenFondoHome {
+  background-image: url(../imagenes/elbosque9.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: double 4px ivory;
+  padding: 10px;
+}
+
+#tituloPrincipal {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 50px;
+  color: ivory;
+  letter-spacing: 15px;
+}
+
+#hoverListen {
+  border: solid 4px ivory;
+  padding: 10px;
+  border-radius: 50px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#linkListen {
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  color: ivory;
+  letter-spacing: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#hoverListen:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#linkListen:hover {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  #gridMain {
+    -ms-grid-rows: 9fr 2fr;
+        grid-template-rows: 9fr 2fr;
+  }
+  #imagenFondoHome {
+    background-image: url(../imagenes/elbosque7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #1F1F1F;
+  }
+  #tituloPrincipal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: #1F1F1F 1px 1px;
+    color: #cccccc;
+  }
+  #linkListen {
+    font-size: 13px;
+  }
+}
+
+/*THE BAND*/
+#colorFondoTheband {
+  background-image: url("../imagenes/elbosque13.jpg");
+  border: double 4px ivory;
+  padding: 10px;
+}
+
+#colorFondoTheband #imagenMiembrosFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+
+#colorFondoTheband .imagenElBosque2 {
+  width: 600px;
+  height: 500px;
+  padding: 20px;
+  border: dashed 2px ivory;
+}
+
+#colorFondoTheband .miembros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+#colorFondoTheband .miembros__nombres--instrumentos {
+  text-decoration: none;
+  font-style: italic;
+  color: ivory;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+}
+
+#colorFondoTheband .miembros__nombres {
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+  color: #66cc99;
+}
+
+@media (max-width: 768px) {
+  #colorFondoTheband .imagenElBosque2 {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+  }
+  #colorFondoTheband .miembros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #colorFondoTheband .miembros__nombres--instrumentos {
+    font-size: 13px;
+  }
+  #colorFondoTheband .miembros__nombres {
+    font-size: 16px;
+  }
+}
+
+/*LISTEN*/
+#imagenFondoListen {
+  background-image: url("../imagenes/elbosque14.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: double 4px ivory;
+  padding: 10px;
+}
+
+#imagenFondoListen #listenSpotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+#imagenFondoListen #listaSpotify {
+  width: 400px;
+  height: 400px;
+  border: groove 4px #66cc99;
+}
+
+#imagenFondoListen .tituloListen {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #66cc99;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  #imagenFondoListen #listenSpotify {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  #imagenFondoListen #listaSpotify {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
+  #imagenFondoListen .tituloListen {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+  }
+}
+
+/*DISCOGRAFIA*/
+#colorFondoDiscografia {
+  background-image: url(../imagenes/elbosque12.jpg);
+  border: double 4px ivory;
+  padding: 10px;
+}
+
+#colorFondoDiscografia #discoFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+#colorFondoDiscografia #cajaDisco {
+  border: double 4px #66cc99;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+#colorFondoDiscografia .tituloDisco {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 28px;
+  color: #66cc99;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+#colorFondoDiscografia .cancionesDisco {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: ivory;
+  list-style-position: inside;
+  letter-spacing: 2px;
+}
+
+#colorFondoDiscografia #imagenDisco:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #66cc99);
+          filter: drop-shadow(5px 5px 5px #66cc99);
+}
+
+@media (max-width: 768px) {
+  #colorFondoDiscografia #cajaDisco {
+    width: 300px;
+    height: 300px;
+  }
+  #colorFondoDiscografia #imagenDisco {
+    width: 200px;
+    height: 200px;
+  }
+  #colorFondoDiscografia .tituloDisco {
+    font-size: 16px;
+  }
+  #colorFondoDiscografia .cancionesDisco {
+    font-size: 12px;
+    margin-right: 50px;
+  }
+}
+
+/*MEDIA*/
+#colorFondoMedia {
+  background-image: url("../imagenes/elbosque17.jpg");
+  border: double 4px gray;
+  padding: 10px;
+}
+
+#colorFondoMedia #mediaFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+#colorFondoMedia .borderImagenes {
+  border: double 3px gray;
+  padding: 20px;
+}
+
+#colorFondoMedia .contenidoMedia {
+  width: 450px;
+  height: 350px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 10px;
+}
+
+#colorFondoMedia .contenidoMedia:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: saturate(130%);
+          filter: saturate(130%);
+}
+
+@media (max-width: 768px) {
+  #colorFondoMedia .contenidoMedia {
+    width: 250px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
