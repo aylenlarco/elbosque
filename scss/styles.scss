@@ -13,6 +13,7 @@ $darkgray: #1F1F1F;
 $instagram: #DB4189;
 $facebook: #0673E7;
 $youtube: #df2020;
+$spotify: #1DB954;
 
 /*MENU NAVEGABLE*/
 nav{
@@ -50,7 +51,7 @@ nav{
         transition: all 0.5s ease;
         line-height: 2em;
     }
-    .sm-button.instagram:hover, .sm-button.facebook:hover, .sm-button.youtube:hover{
+    .sm-button.instagram:hover, .sm-button.facebook:hover, .sm-button.youtube:hover, .sm-button.spotify:hover{
         color: $gray;
         border-color: $ivory;
         background: transparent;
@@ -66,6 +67,10 @@ nav{
     }
     .sm-button.youtube{
         background: $youtube;
+        margin-left: 15px;
+    }
+    .sm-button.spotify{
+        background: $spotify;
         margin-left: 15px;
     }
 }
@@ -89,7 +94,7 @@ nav{
 }
 ::placeholder{
     color: $ivory;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
     letter-spacing: 3px;
 }
@@ -231,6 +236,7 @@ nav{
         }
         .miembros__nombres--instrumentos{
             font-size: 13px;
+            margin-bottom: 40px;
         }
         .miembros__nombres{
             font-size: 16px
@@ -322,7 +328,7 @@ nav{
     @media (max-width: 768px){
         #cajaDisco{
             width: 300px;
-            height: 300px;
+            height: 320px;
         }
         #imagenDisco{
             width: 200px;

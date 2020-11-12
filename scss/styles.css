@@ -52,7 +52,7 @@ nav .sm-button {
   line-height: 2em;
 }
 
-nav .sm-button.instagram:hover, nav .sm-button.facebook:hover, nav .sm-button.youtube:hover {
+nav .sm-button.instagram:hover, nav .sm-button.facebook:hover, nav .sm-button.youtube:hover, nav .sm-button.spotify:hover {
   color: gray;
   border-color: ivory;
   background: transparent;
@@ -72,6 +72,11 @@ nav .sm-button.facebook {
 
 nav .sm-button.youtube {
   background: #df2020;
+  margin-left: 15px;
+}
+
+nav .sm-button.spotify {
+  background: #1DB954;
   margin-left: 15px;
 }
 
@@ -97,28 +102,28 @@ nav .sm-button.youtube {
 
 ::-webkit-input-placeholder {
   color: ivory;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 :-ms-input-placeholder {
   color: ivory;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 ::-ms-input-placeholder {
   color: ivory;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 ::placeholder {
   color: ivory;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
@@ -306,6 +311,7 @@ nav .sm-button.youtube {
   }
   #colorFondoTheband .miembros__nombres--instrumentos {
     font-size: 13px;
+    margin-bottom: 40px;
   }
   #colorFondoTheband .miembros__nombres {
     font-size: 16px;
@@ -425,7 +431,7 @@ nav .sm-button.youtube {
 @media (max-width: 768px) {
   #colorFondoDiscografia #cajaDisco {
     width: 300px;
-    height: 300px;
+    height: 320px;
   }
   #colorFondoDiscografia #imagenDisco {
     width: 200px;
