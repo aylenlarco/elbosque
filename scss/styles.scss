@@ -94,7 +94,7 @@ nav{
 }
 ::placeholder{
     color: $ivory;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 11px;
     letter-spacing: 3px;
 }
@@ -141,8 +141,8 @@ nav{
     border-radius: 50px;
     -webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .4s;
-    transition: .4s;
+	-webkit-transition: .2s;
+    transition: .2s;
 }
 #linkListen{
     text-decoration: none;
@@ -185,20 +185,20 @@ nav{
 
 /*THE BAND*/
 #colorFondoTheband{
-    background-image: url("../imagenes/elbosque13.jpg");
+    background-image: url("../imagenes/elbosque17.jpg"); 
     border: double 4px $ivory;
     padding: 10px;
     #imagenMiembrosFlex{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 70px;
+        margin-top: 150px;
     }
     .imagenElBosque2{
         width: 600px;
         height: 500px;
         padding: 20px;
-        border: dashed 2px $ivory;
+        border: double 2px $ivory;
     }
     .miembros{
         display: flex;
@@ -209,14 +209,15 @@ nav{
     }
         .miembros__nombres--instrumentos{
             text-decoration: none;
-            font-style: italic;
+            text-align: center;
             color: $ivory;
             font-size: 16px;
-            font-family: 'Architects Daughter', cursive;
+            font-family: 'Julius Sans One', sans-serif;
             letter-spacing: 3px;
         }
         .miembros__nombres{
             font-weight: bold;
+            text-align: center;
             font-size: 19px;
             font-family: 'Julius Sans One', sans-serif;
             letter-spacing: 3px;
@@ -346,14 +347,14 @@ nav{
 
 /*MEDIA*/
 #colorFondoMedia{
-    background-image: url("../imagenes/elbosque17.jpg");
+    background-image: url("../imagenes/elbosque13.jpg");
     border: double 4px $gray;
     padding: 10px;
     #mediaFlex{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-top: 70px;
+        margin-top: 150px;
     }
     .borderImagenes{
         border: double 3px $gray;

@@ -102,28 +102,28 @@ nav .sm-button.spotify {
 
 ::-webkit-input-placeholder {
   color: ivory;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 :-ms-input-placeholder {
   color: ivory;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 ::-ms-input-placeholder {
   color: ivory;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
 
 ::placeholder {
   color: ivory;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 11px;
   letter-spacing: 3px;
 }
@@ -179,8 +179,8 @@ nav .sm-button.spotify {
   border-radius: 50px;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 #linkListen {
@@ -230,7 +230,7 @@ nav .sm-button.spotify {
 
 /*THE BAND*/
 #colorFondoTheband {
-  background-image: url("../imagenes/elbosque13.jpg");
+  background-image: url("../imagenes/elbosque17.jpg");
   border: double 4px ivory;
   padding: 10px;
 }
@@ -246,14 +246,14 @@ nav .sm-button.spotify {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 #colorFondoTheband .imagenElBosque2 {
   width: 600px;
   height: 500px;
   padding: 20px;
-  border: dashed 2px ivory;
+  border: double 2px ivory;
 }
 
 #colorFondoTheband .miembros {
@@ -275,15 +275,16 @@ nav .sm-button.spotify {
 
 #colorFondoTheband .miembros__nombres--instrumentos {
   text-decoration: none;
-  font-style: italic;
+  text-align: center;
   color: ivory;
   font-size: 16px;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 3px;
 }
 
 #colorFondoTheband .miembros__nombres {
   font-weight: bold;
+  text-align: center;
   font-size: 19px;
   font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 3px;
@@ -448,7 +449,7 @@ nav .sm-button.spotify {
 
 /*MEDIA*/
 #colorFondoMedia {
-  background-image: url("../imagenes/elbosque17.jpg");
+  background-image: url("../imagenes/elbosque13.jpg");
   border: double 4px gray;
   padding: 10px;
 }
@@ -464,7 +465,7 @@ nav .sm-button.spotify {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 #colorFondoMedia .borderImagenes {
