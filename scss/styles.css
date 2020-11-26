@@ -80,6 +80,13 @@ nav .sm-button.spotify {
   margin-left: 15px;
 }
 
+@media (max-width: 768px) {
+  nav .sm-button {
+    margin-top: 45px;
+    margin-right: 10px;
+  }
+}
+
 /*FOOTER DE TODAS LAS SECCIONES*/
 #footerGeneral {
   margin-top: 300px;
@@ -135,7 +142,7 @@ nav .sm-button.spotify {
     font-size: 8px;
   }
   .btn {
-    width: 350px;
+    width: 355px;
     height: 25px;
   }
 }
