@@ -1,4 +1,4 @@
-/*FUENTE*/
+/*FUENTES*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&display=swap');
@@ -238,9 +238,11 @@ nav{
         .miembros__nombres--instrumentos{
             font-size: 13px;
             margin-bottom: 40px;
+            text-decoration: none;
         }
         .miembros__nombres{
-            font-size: 16px
+            font-size: 16px;
+            text-decoration: none;
         }
     }
 }    
