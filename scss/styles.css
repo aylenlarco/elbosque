@@ -87,7 +87,6 @@ nav .sm-button.spotify {
 
 .textoFooter {
   color: ivory;
-  font-weight: bolder;
   text-shadow: black 2px 2px;
   font-size: 17px;
   letter-spacing: 4px;
@@ -136,7 +135,7 @@ nav .sm-button.spotify {
     font-size: 8px;
   }
   .btn {
-    width: 325px;
+    width: 350px;
     height: 25px;
   }
 }
